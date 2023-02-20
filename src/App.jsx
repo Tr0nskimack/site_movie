@@ -40,14 +40,16 @@ const App = () => {
   return (
     /*contenedor que va a mostrar el poster de las peliculas actuales*/
     <div className="container mt-3">
-      {
-        movies.map((movie) => (
-          <div key={movie.id} className="col-md-4 mb-3">
-            <img src={`${IMAGE_URL + movie.poster_path}`} height={600} width="100%" />
-            <h4 className='text-center'>{movie.title}</h4>
-          </div>
-        ))
-      }
+      <div className="col">
+        {
+          movies.map((movie) => (
+            <div key={movie.id} className="col-md-4 mb-3">
+              <img src={`${IMAGE_URL + movie.poster_path}`} height={600} width="100%" />
+              <h4 className='text-center'>{movie.title}</h4>
+            </div>
+          ))
+        }
+      </div>
 
     </div>
   )
