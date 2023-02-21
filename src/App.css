@@ -1,14 +1,13 @@
 .viewtrailer{
   min-height: 700px;
   background-size: cover;
-  background-position: center;
+  background-position:center;
+
   display: flex;
   align-items: flex-end;
-  margin-bottom: 15px;
 }
-
 .boton{
-  background-color: #0f1014;
+  background-color: #0F1014;
   color: white;
   outline: none;
   border: 1px solid white;
@@ -16,7 +15,6 @@
   cursor: pointer;
   margin-bottom: 10px;
 }
-
 .reproductor{
   width: 100%;
   height: 600px;
